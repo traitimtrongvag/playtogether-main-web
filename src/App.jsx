@@ -4,7 +4,7 @@ import { Download } from 'lucide-react';
 export default function App() {
   const handleDownload = () => {
     const url = 'https://www.mediafire.com/file/unj1u9qbsdpwhwy/PLAY-TOHETHER-GLOBAL_2.22.0.apk/file';
-    cnst filename = 'PlayTogether-Global.apk';
+    const filename = 'PlayTogether-Global.apk';
     
     const link = document.createElement('a');
     link.href = url;
