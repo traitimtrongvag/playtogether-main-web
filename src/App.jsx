@@ -5,9 +5,9 @@ const DOWNLOADS = [
   {
     id: 'global',
     title: 'PLAYTOGETHER GLOBAL',
-    version: '2.22.0',
+    version: '2.22.2',
     image: '/picture/playtogether-global.jpeg',
-    url: 'https://www.mediafire.com/file/unj1u9qbsdpwhwy/PLAY-TOHETHER-GLOBAL_2.22.0.apk/file',
+    url: 'https://www.mediafire.com/file/dq0yra6dbia652n/PlayTogether_Global_2.22.2.apk/file',
     filename: 'PlayTogether-Global.apk'
   },
   {
