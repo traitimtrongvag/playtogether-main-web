@@ -25,7 +25,7 @@ export default function App() {
               {/* Small Image */}
               <div className="flex justify-center mb-4">
                 <img 
-                  src="/picture/playtogether-glodbal.jpeg" 
+                  src="/picture/playtogether-global.jpeg" 
                   alt="PlayTogether Global"
                   className="w-20 h-20 object-cover rounded-lg shadow-md"
                 />
