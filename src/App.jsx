@@ -5,6 +5,7 @@ const DOWNLOADS = [
   {
     id: 'global',
     title: 'PLAYTOGETHER GLOBAL',
+    version: '2.22.0',
     image: '/picture/playtogether-global.jpeg',
     url: 'https://www.mediafire.com/file/unj1u9qbsdpwhwy/PLAY-TOHETHER-GLOBAL_2.22.0.apk/file',
     filename: 'PlayTogether-Global.apk'
@@ -12,6 +13,7 @@ const DOWNLOADS = [
   {
     id: 'vng',
     title: 'PLAYTOGETHER VNG',
+    version: '2.22.2',
     image: '/picture/playtogether-vng.jpeg',
     url: 'https://www.mediafire.com/file/otql8kec42mwwjt/PlayTogether_VNG_2.22.2.apk/file',
     filename: 'PlayTogether-VNG.apk'
@@ -47,9 +49,13 @@ export default function App() {
                   />
                 </div>
                 
-                <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
                   {item.title}
                 </h2>
+                
+                <p className="text-sm text-gray-500 text-center mb-6">
+                  Version: {item.version}
+                </p>
                 
                 <button
                   onClick={() => handleDownload(item.url, item.filename)}
