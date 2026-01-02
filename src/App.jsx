@@ -15,7 +15,7 @@ const DOWNLOADS = [
     title: 'PLAYTOGETHER VNG',
     version: '2.22.2',
     image: '/picture/playtogether-vng.jpeg',
-    url: 'https://www.mediafire.com/file/otql8kec42mwwjt/PlayTogether_VNG_2.22.2.apk/file',
+    url: 'https://mega.nz/file/nQk0nCoR#V2gFLWxf-jYbBn8V2DrfimXXWrVBYFBq7g9zJqgHAfw',
     filename: 'PlayTogether-VNG.apk'
   }
 ];
